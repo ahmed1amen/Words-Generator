@@ -1,0 +1,14 @@
+﻿http://www.codeproject.com/Articles/1111639/Permutations 
+
+This Application is only a proof of concepts.
+The Algorithms in Combinatorics.vb / Combinatorcs.cs are developed with care, but less care I took about architectural questions.
+
+In ProjectProperties you can change the StartObject to "Sub Main". Then you can examine the Test-Codes in Main.vb.
+I took an interesting concept:
+Make many tests, and write all output into a file.
+For Testing load the file and compare with current result (or result-file).
+Then you can develop algorithms and quickly check whether it still works as before.
+And you also can change the testing-code. Then you get a message about differences, but you can accept the current resultFile as new standard (after inspect it, and assure yourself).
+
+Usually one would have unit-tests, but even in a unit-test its not that trivial to define exactly the respected result of a permutation of 9 elements.
+so here write multiple test-outputs in a file, inspect it and give ok to set it as the further expected overall-result.

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Permutation
+</name>
+</assembly>
+<members>
+<member name="T:Permutation.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Permutation.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Permutation.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Permutation.Counter.Up(System.Int32)">
+ <summary> gibt den aktuellen Wert zurück und incrementiert anschließend </summary>
+</member>
+<member name="M:Permutation.Counter.Down">
+ <summary> gibt den aktuellen Wert zurück und decrementiert anschließend </summary>
+</member>
+<member name="M:Permutation.Counter.Fallback">
+ <summary>Decrementiert und returnt beim 0-Durchgang True</summary>
+</member>
+<member name="M:Permutation.Counter.TryFallback">
+ <summary>Decrementiert oder returnt False, wann 0 unterschritten würde</summary>
+</member>
+<member name="M:Permutation.Main.AutomaticTests">
+ <summary>
+ collects several tests and write them to a new Memo-File.
+ compares the new with the old memo and give User-Feedback, if a difference occurs.
+ Either you have messed up an algo, or you have changed the tests. In latter case you can accept the new Memo as new standard.
+ You can edit the files and copy to "Memo.User.txt" to make the output more readable. "Memo.User.txt" will not be overwritten on accepting a new standard.
+ </summary>
+</member>
+</members>
+</doc>

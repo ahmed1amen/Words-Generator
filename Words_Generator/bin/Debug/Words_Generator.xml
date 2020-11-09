@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Words_Generator
+</name>
+</assembly>
+<members>
+<member name="T:Words_Generator.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Words_Generator.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Words_Generator.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Words_Generator.Counter.Up(System.Int32)">
+ <summary> gibt den aktuellen Wert zurück und incrementiert anschließend </summary>
+</member>
+<member name="M:Words_Generator.Counter.Down">
+ <summary> gibt den aktuellen Wert zurück und decrementiert anschließend </summary>
+</member>
+<member name="M:Words_Generator.Counter.Fallback">
+ <summary>Decrementiert und returnt beim 0-Durchgang True</summary>
+</member>
+<member name="M:Words_Generator.Counter.TryFallback">
+ <summary>Decrementiert oder returnt False, wann 0 unterschritten würde</summary>
+</member>
+</members>
+</doc>
